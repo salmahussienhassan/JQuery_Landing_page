@@ -41,19 +41,23 @@ nav{
 }
 .open{
     cursor: pointer;
-    /* position: absolute;
-    left: 100%;
-    width: fit-content;
-    top: 50%; */
+}
+.open-scroll{
+    background-color: #dc3545;
+    color: white;
+    height: fit-content;
+    margin-top: 100%;
 }
 
 
 /* second section */
 .head{
+    cursor: pointer;
     background-color: rgba(214, 46, 51 , 0.6);
 }
 .body{
     background-color: #ccc;
+display: none;
 }
 .second p{
 color: black;
@@ -89,14 +93,15 @@ border: #777 solid 1px;
 }
 .scroll{
     cursor: pointer;
-     display: flex;
+     position: fixed;
      width: 40px;
      height: 40px;
      border-radius: 50%;
      background-color: #D62E33;
      justify-content: center;
      align-items: center;
-     position: fixed;
+   display: none;
      bottom: 5px;
      right: 5px;
  }
+ 
