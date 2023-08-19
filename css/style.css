@@ -35,6 +35,7 @@ nav{
 }
 .sidebar ul li a:hover,.fa-solid:hover {
     color: #dc3545 !important;
+    cursor: pointer;
 }
 .icon{
     right: 20px;
@@ -67,7 +68,8 @@ color: black;
     background-image: linear-gradient(#e4383899,#9e101099,#fa313199),url(../img/invitation-2508607__340.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-attachment: fixed;
     height: 50vh;
 }
 .col-md-3 h4 {

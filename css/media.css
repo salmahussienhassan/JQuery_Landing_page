@@ -1,0 +1,18 @@
+@media screen and (min-width:0px) and (max-width:600px){
+ .open{
+    display: block !important;
+ }
+.open-scroll{
+    margin-top: 10px !important;
+}
+}
+/* sm */
+@media screen and (min-width:601px) and (max-width:768px){
+   
+    .open{
+        display: block !important;
+     }
+     .open-scroll{
+        margin-top: 10px !important;
+    }
+}
