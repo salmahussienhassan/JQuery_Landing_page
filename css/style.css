@@ -68,7 +68,7 @@ color: black;
     background-image: linear-gradient(#e4383899,#9e101099,#fa313199),url(../img/invitation-2508607__340.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
     
 }
